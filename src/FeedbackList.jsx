@@ -1,7 +1,6 @@
 import FeedbackItem from './components/FeedbackItem';
 import { useContext } from 'react';
 import { FeedbackContext } from './context/FeedbackContext';
-import PropTypes from 'prop-types'
 import { motion, AnimatePresence} from "framer-motion"
 
 function FeedbackList() {

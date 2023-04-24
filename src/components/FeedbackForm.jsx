@@ -3,12 +3,10 @@ import { FeedbackContext } from "../context/FeedbackContext"
 import Card from "./shared/Card"
 import RatingSelect from "./RatingSelect";
 import Button from "./shared/Button"
-import { isDisabled } from "@testing-library/user-event/dist/utils";
 
 function FeedbackForm() {
   const {addFeedback, feedbackEdit, updateFeedback  } = useContext(FeedbackContext);
   const [rating, setRating] = useState(10);
-  const [text, setText] = useState('');
   const [isBtnDisabled, setIsBtnDisabled] = useState(true);
   const [message , setMessage] = useState('');
 
