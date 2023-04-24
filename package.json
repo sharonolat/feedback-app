@@ -16,7 +16,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "postinstall": "npm install",
     "start": "react-scripts start",
     "build": "node -v && npm -v && react-scripts build",
     "test": "react-scripts test",
