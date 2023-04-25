@@ -1,6 +1,6 @@
 {
   "name": "feedback-app",
-  "proxy": "http://localhost:5000",
+  "proxy": "http://localhost:3001",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "serve": "serve -s build",
-    "json-server": "json-server --watch db.json --port 5000",
+    "json-server": "json-server --watch db.json --port 3001",
     "dev": "concurrently \"npm run json-server\" \"npm start\""
   },
   "eslintConfig": {
