@@ -1,6 +1,6 @@
 {
   "name": "feedback-app",
-  "proxy": "http://localhost:3001",
+  "proxy": "https://cozy-squirrel-9f6868.netlify.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
